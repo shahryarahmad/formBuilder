@@ -1,0 +1,225 @@
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1320px !important;
+}
+
+.empty-form {
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px dashed #cfcece;
+
+    
+}
+
+.form-empty-state {
+    text-align: center;
+    
+}
+
+.form-items {
+    padding: 5px 10px;
+    min-height: 100px;
+    border: 2px solid #dedede;
+    border-radius: 5px;
+
+
+}
+
+.form-element-item span {
+    padding-top: 3px;
+}
+
+.form-element-item {
+    display: flex;
+    padding: 5px 3px;
+    border-radius: 3px;
+    float: left;
+    width: 50%;
+    padding: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
+
+.form-element-item:hover {
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.close-btn {
+    background: url(../images/close.svg) no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+
+}
+
+.draggable {
+    cursor: pointer;
+    user-select: none;
+}
+
+.hidden-section {
+    display: none;
+}
+
+.btn-custom-color {
+    background-color: #3a3afd;
+    border-color: #3a3afd;
+}
+
+.btn-custom-color:hover {
+    background-color: #4b4bff;
+    border-color: #4b4bff;
+}
+
+.btn-outline-primary {
+    background-color: transparent !important;
+    border-color: #3a3afd !important;
+    color: #3a3afd !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3a3afd !important;
+    border-color: #3a3afd !important;
+    color: #ffffff !important;
+
+}
+
+.move-item-btn {
+    background-image: url(../images/move.svg);
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.duplicate-item-btn {
+    background: url(../images/duplicate.svg) no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+
+}
+
+.delete-item-btn {
+    background: url(../images/icons/close.svg) no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.preview-form {
+    background-color: whitesmoke;
+    min-height: 400px;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.left {
+    float: right;
+    overflow: hidden;
+}
+
+.form-switch .form-check-input {
+    width: 2em;
+    margin-left: -2.5em;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='rgba%280, 0, 0, 0.25%29'/%3e%3c/svg%3e");
+    background-position: left center;
+    border-radius: 2em;
+    transition: background-position .15s ease-in-out;
+}
+
+.form-check-input {
+    width: 1em;
+    height: 1em;
+    margin-top: .25em;
+    vertical-align: top;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(0, 0, 0, .25);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact;
+}
+
+.form-control {
+    border: none !important;
+}
+
+::placeholder {
+    color: #333333 !important;
+}
+
+.move-list-item-btn {
+    background: url(../images/icons/move.svg) no-repeat center center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+}
+
+.field-heading::placeholder {
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: 800;
+}
+
+.field-heading {
+    color: #333333 !important;
+    font-size: 14px !important;
+    font-weight: 800;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.form-check {
+    margin-left: 28px;
+}
